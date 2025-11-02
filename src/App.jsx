@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import LanguageSelect from "./components/LanguageSelect";
-import ChatEn from "./components/ChatEN";
+import ChatEn from "./components/ChatEn";
 import ChatSr from "./components/ChatSr";
 
 export default function App() {
