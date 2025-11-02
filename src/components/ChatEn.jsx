@@ -40,7 +40,7 @@ export default function ChatEn() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask something about apartmant..."
+          placeholder="Ask something about apartment..."
           className="flex-grow border rounded p-2"
         />
         <button
