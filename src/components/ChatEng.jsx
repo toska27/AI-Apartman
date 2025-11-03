@@ -20,7 +20,7 @@ export default function ChatEn() {
   return (
     <div className="max-w-lg mx-auto mt-10 bg-gray-100 rounded-2xl shadow-lg p-4">
       <h1 className="text-center text-2xl font-bold mb-3">
-        AI Apartmant Assist
+        AI Apartment Assist
       </h1>
       <div className="h-80 overflow-y-auto p-3 border rounded bg-white">
         {messages.map((m, i) => (
@@ -45,7 +45,7 @@ export default function ChatEn() {
         />
         <button
           onClick={sendMessage}
-          className="bg-blue-600 text-white px-4 py-2 rounded"
+          className="bg-blue-600 text-white px-4 py-2 rounded hover:cursor-pointer"
         >
           Send
         </button>
