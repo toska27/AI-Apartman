@@ -18,32 +18,36 @@ export default function ChatSr() {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 bg-gray-100 rounded-2xl shadow-lg p-4">
-      <h1 className="text-center text-2xl font-bold mb-3">AI Asistent Stana</h1>
-      <div className="h-80 overflow-y-auto p-3 border rounded bg-white">
+    <div className="max-w-lg mx-auto mt-20 bg-[#0D1B2A] opacity-80 rounded-2xl shadow-xl p-6 border border-gray-200 transition-all duration-500 hover:shadow-blue-100 hover:-translate-y-1">
+      <h1 className="text-center text-3xl font-bold mb-4 text-white tracking-wide">
+        AI Asistent Stana
+      </h1>
+
+      <div className="h-100 overflow-y-auto p-4 border border-gray-300 rounded-lg bg-gray-50 shadow-inner">
         {messages.map((m, i) => (
           <p
             key={i}
-            className={`my-1 ${
+            className={`my-2 text-sm leading-relaxed ${
               m.role === "user"
-                ? "text-blue-600 text-right"
-                : "text-gray-800 text-left"
+                ? "text-blue-700 text-right"
+                : "text-gray-900 text-left"
             }`}
           >
             <b>{m.role === "user" ? "Gost:" : "Asistent:"}</b> {m.text}
           </p>
         ))}
       </div>
-      <div className="flex mt-3 gap-2">
+
+      <div className="flex mt-4 gap-2">
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Pitaj nešto o stanu..."
-          className="flex-grow border rounded p-2"
+          placeholder="Kako vam mogu pomoći?"
+          className="flex-grow border border-gray-300 rounded-lg p-2 text-gray-900 bg-white focus:ring-2 focus:ring-blue-400 focus:outline-none transition-all"
         />
         <button
           onClick={sendMessage}
-          className="bg-blue-600 text-white px-4 py-2 rounded hover:cursor-pointer"
+          className="bg-gray-200 text-[#000000] px-4 py-2 rounded-lg font-semibold shadow-md hover:bg-gray-300 hover:shadow-lg active:scale-95 transition-all duration-200"
         >
           Pošalji
         </button>
