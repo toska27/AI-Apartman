@@ -18,24 +18,33 @@ export default function ChatEn() {
   };
 
   return (
-    <div className="max-w-lg mx-auto mt-10 bg-[#0D1B2A] opacity-80 rounded-2xl shadow-xl p-6 border border-gray-200 transition-all duration-500 hover:shadow-blue-100 hover:-translate-y-1 md:mt-20">
+    <div className="max-w-lg mt-5 mx-auto bg-[#0D1B2A] rounded-2xl shadow-xl p-6 border border-gray-200 transition-all duration-500 hover:shadow-blue-100 hover:-translate-y-1">
       <h1 className="text-center text-3xl font-bold mb-4 text-white tracking-wide">
         AI Apartment Assist
       </h1>
 
-      <div className="h-100 overflow-y-auto p-4 border border-gray-300 rounded-lg bg-gray-50 shadow-inner">
-        {messages.map((m, i) => (
-          <p
-            key={i}
-            className={`my-2 text-sm leading-relaxed ${
-              m.role === "user"
-                ? "text-blue-700 text-right"
-                : "text-gray-900 text-left"
-            }`}
-          >
-            <b>{m.role === "user" ? "Guest:" : "Assistant:"}</b> {m.text}
-          </p>
-        ))}
+      <div
+        style={{ backgroundImage: "url('/stan2.jpg')" }}
+        className="relative h-100 overflow-y-auto p-4 border border-gray-300 rounded-lg bg-cover bg-center"
+      >
+        {messages.length > 0 ? (
+          <div className="relative z-10 bg-white/60 rounded-lg p-2">
+            {messages.map((m, i) => (
+              <p
+                key={i}
+                className={`my-2 text-sm leading-relaxed ${
+                  m.role === "user"
+                    ? "text-blue-700 text-right"
+                    : "text-gray-900 text-left"
+                }`}
+              >
+                <b>{m.role === "user" ? "Guest:" : "Assistant:"}</b> {m.text}
+              </p>
+            ))}
+          </div>
+        ) : (
+          ""
+        )}
       </div>
 
       <div className="flex mt-4 gap-2">
