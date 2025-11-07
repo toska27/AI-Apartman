@@ -38,7 +38,7 @@ export default function ChatSr() {
                     : "text-gray-900 text-left"
                 }`}
               >
-                <b>{m.role === "user" ? "Guest:" : "Assistant:"}</b> {m.text}
+                <b>{m.role === "user" ? "Gost:" : "Asistent:"}</b> {m.text}
               </p>
             ))}
           </div>
