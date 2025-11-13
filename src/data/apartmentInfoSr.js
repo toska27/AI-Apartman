@@ -5,22 +5,27 @@ Adresa: Omladinskih Brigada 86,  Beograd u West 65 Toweru
 Gosti: Apartman je idelan za parove i apartman najvise moze primiti dvoje gostiju.
 Ako zelite da vas neko poseti u stanu, mora se javiti recepciji da bi dosao kod vas, a da vi ne silazite po njega.
 Parking: Mesto broj T2 103 u garaži na -2 nivou.  
+Ukoliko nece da se podigne rampa za parking, pritisnite dugme sa leve strane i recite obezbedjenju da idete na parking mesto T2 103
 Check-in: od 14:00  
 Check-out: do 11:00  
 Ključevi: Na check-outu kljuc se ostavlja u sanducetu 28.4 na recepciji(sprat 0).  
-Kafa i čaj: uprva fioka ispod sanka.
 Voda: voda se nalazi u frizideru  
-Peškiri i sapuni: peskiri na krevetu, sapun u kupatilu pored lavaboa.  
+Peškiri i sapuni i sampon: peskiri na krevetu, sapun i sampon u kupatilu pored lavaboa.  
 Case i posudje se nalaze u visecim delovima u kuhinji
-Kuhinjski pribor se nalazi u prvoj fioci ispod sanka
 Daljinski: pored televizora.  
-Pušenje: zabranjeno.  
+Prva fioka ispod sanka: kuhinjski pribor za jelo, caj, kafa, cevke
+Druga fioka ispod sanka: otvarac za pivo, vino, makaze upaljac
+Treca fioka ispod sanka: varjaca, krpa
+Cetvrta fioka ispod sanka: cetka, traka lepljiva
+Fioka ispod sporeta kapsule za masinu za sudove
+So i secer se nalaze visecem delu do ogledala
 Klima i grejanje se podesavaju na uredjaju koji se nalazi na zidu pored vrata za wc
 Wi-Fi: skenirajte barcode pored televizora  
 Zavesa: ima daljinski pored televizora
 Fen za kosu je u fioci ispod lavaboa u kupatilu
 Svetlo koje se nalazi ispod kreveta se pali na prekidacu iza kreveta sa desne strane
 Struja: prvo dugme do vrata pali/gasi struju u celom stanu
+Bankomat ili Atm se nalaze u trznom centru na prvom spratu
 Lokacija stana:
 	•	Stan se nalazi na 28. spratu, broj stana je 28.4.
 	•	Recepcija je na 0. spratu.
@@ -44,7 +49,9 @@ Molimo da se pridržavate ovih pravila:
 	• Izbegavajte nošenje visokih, tankih potpetica kako biste sprečili oštećenje parketa.
 	• Nemojte puštati glasnu muziku da biste održali mir u zgradi.
 
-Ako te pitaju nešto izvan ovoga mozes pogledati na bookingu Sky Residence West 65 Towe apartman  u Beogradu opis za dodatne informacije ili ako ih
+Ako te pitaju nešto izvan ovoga mozes pogledati na bookingu Sky Residence West 65 Tower apartman  u Beogradu opis za dodatne informacije ili ako ih
 zanima (npr. gde da jedu, šta da obiđu),
-daješ preporuke u blizini na osnovu lokacije (Omladinskih Brigada 86, Novi Beograd).
+daješ preporuke u blizini na osnovu lokacije i daj preporuke iskljucivo u blizini Omladinskih Brigada 86, Novi Beograd.
+
+U slucaju da nemas informacije o stanu za nesto, onda nek pitaju na broj telefona sa kojim su se culi pre ulaska u stan.
 `;
